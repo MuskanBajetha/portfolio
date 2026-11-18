@@ -5,6 +5,8 @@ my portfolio, but it's a tiny creature who talks about me.
 no AI calls. every line is pre-written, a state machine runs the whole thing.
 built with next.js + xstate.
 
+check it out: https://muskanbajetha.vercel.app/
+
 ## run it
 npm install
 npm run dev
