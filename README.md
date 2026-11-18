@@ -1,12 +1,22 @@
-# MISO-OS: story-mode portfolio
-Next.js 14 + XState. No AI calls: every line is pre-written; a state machine runs the show.
+# miso 🟠
 
-## Customize
-Edit **lib/data.js**: name, links, dialogue, projects, stack, experience, FAQ.
-Project screenshots: put images in `public/projects/` and set `image: "/projects/x.png"`.
-To rename Miso, find/replace "Miso" in lib/data.js, components/*, app/layout.js.
+my portfolio, but it's a tiny creature who talks about me.
 
-## Run:  npm install && npm run dev
-## Deploy: push to GitHub → import on vercel.com → Deploy (or `npx vercel`)
+no AI calls. every line is pre-written, a state machine runs the whole thing.
+built with next.js + xstate.
 
-Controls: click Miso to boop · ignore him 30s and he sleeps · keys A–D answer · ⌘K / Ctrl+K palette (try "sudo hire yourname").
+## run it
+npm install
+npm run dev
+
+## make it yours
+everything miso says lives in lib/data.js
+project screenshots go in public/projects/
+
+## deploy
+push to github → import on vercel → deploy
+
+## things to try
+- boop him
+- ignore him for 30 seconds
+- press ctrl/⌘ + k and type "sudo hire muskan"
